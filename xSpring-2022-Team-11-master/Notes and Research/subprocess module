@@ -5,4 +5,5 @@ The line of code above is used by every task besides the text broker, as the tex
 subprocess.run in this case takes in 3 parameters:
   1.) args: this is the path of an executable file to run, followed by any arguments that are defined in that executable's parameters
   2.) shell = True: This just ensures that the subprocess is being ran through the shell
-  3.) stdout = subprocess.PIPE: This makes the output of the current running executable file the output of the executable file that runs as a subprocess. In this case, it is building a stack of stdouts of each program that is called as a subprocess that will all eventually be returned
+  3.) stdout = subprocess.PIPE: This makes the output of the current running executable file the output of the executable file that runs as a subprocess. 
+      In this case, it is building a stack of stdouts of each program that is called as a subprocess that will all eventually be returned
