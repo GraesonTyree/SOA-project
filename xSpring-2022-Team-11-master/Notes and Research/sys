@@ -1,0 +1,9 @@
+import sys
+
+sys.argv: This is an array of every argument that is being put into the shell, spliced by spaces.
+  Example: (IN SHELL) ServiceBroker.py Error 404
+    argv[0] = ServiceBroker.py
+    argv[1] = Error
+    argv[2] = 404
+
+In this program, we are using sys.argv to determine what each program will do when given the required arguments in the proper format.
