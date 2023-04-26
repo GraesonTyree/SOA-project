@@ -1,6 +1,0 @@
-404,"Not Found"
-703,"Service Not Found"
-805,"Language Not Found"
-813,"Word Not Found"
-903,"Tax Year Not Found"
-512,"No Parameters Passed"
