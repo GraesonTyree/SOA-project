@@ -1,0 +1,11 @@
+Service Broker - The inbetween of each module, the core. Reads the "Service.txt" file to determine the location of the module you want to call and who do you call for what service.
+  EXAMPLE: tax(....) you are calling the tax module.
+  If you are calling the Service Broker from another module to call another module for example if you want the Error module from the Translation module you call the Service Broker and pass "Error" in the parameter list. SerivceBroker(Error,ErrorCode).
+Text Broker - The text file manager, it goes through a text file and finds what you are looking for. You send the text broker what file you want to open and some parameter you are using like a word or gross income.
+  EXAMPLE: TextBroker(Spanish, Hello)
+Error - Opens the "Option.txt" file to determine what language you want your error message to be in, what MSG file do you want your text broker to open for the error? Outputs the file name.
+ 
+Translate - The sub service broker. Determines if there is an error and makes an error code if so.
+ 
+Tax - The sub service broker, calculates the tax to pay. Determines if there is an error and makes an error code if so.
+  
