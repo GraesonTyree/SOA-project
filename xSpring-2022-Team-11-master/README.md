@@ -4,10 +4,10 @@ This is set up in a way that is easier to read and understand rather than just c
 
 | Folder | Description |
 |---|---|
-| Documentation |  all documentation the project team has created to describe the architecture, design, installation and configuration of the project |
+| Documentation |  All documentation the project team has created to describe the architecture, design, installation and configuration of the project |
 | Notes and Research | Relavent information useful to understand the tools and techniques used in the project |
-| Status Reports | Project management documentation - weekly reports, milestones, etc. |
-| scr | Source code - create as many subdirectories as needed |
+| Status Reports | Project management documentation - reports, milestones, etc. |
+| src | Source code - Our different ideas for design and the final code are all shown here |
 
 ## Project Team
 - Rose Moonjelly - Bioinformatics & Information Systems - Student Team Member
